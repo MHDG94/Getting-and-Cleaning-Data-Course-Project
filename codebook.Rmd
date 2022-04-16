@@ -1,0 +1,25 @@
+The repository includes "run_analysis.R" which was used getting and cleaning data. 
+
+Step 1: download.file() and unzip() functions were used to download and extract data, resoectively, from "UCI HAR Dataset"
+
+Step 2: Each data was assigned a variable and the variables are: 
+ (1) Features 
+ (2) Activities 
+ (3) Subject_test 
+ (4) X_test
+ (5) Y_test 
+ (6) Subject_Train 
+ (7) X_train 
+ (8) Y_train 
+ 
+Step 3: Data set was merged using rbind() and cbind() functions followed by extracting the mean and standard deviation using TidyData 
+ 
+Step 5: A label was assigned to each data set: 
+ (1) Accelerometer 
+ (2) Gyroscope
+ (3) Body 
+ (4) Magnitude 
+ (5) Frequency 
+ (6) Time 
+ 
+Finally, the data was observed via FinalData and exported into a text file. 
